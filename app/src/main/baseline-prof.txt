@@ -1,0 +1,11 @@
+# Handwritten startup seed, not a measured performance profile.
+# The original blanket method rules were invalid ART profile syntax.
+# Library baseline profiles are merged automatically by AGP.
+# Generate measured journeys on a device before claiming performance gains.
+Lir/pinbom/app/PinBomApplication;
+Lir/pinbom/app/MainActivity;
+HSPLir/pinbom/app/PinBomApplication;->onCreate()V
+HSPLir/pinbom/app/MainActivity;->onCreate(Landroid/os/Bundle;)V
+Landroidx/compose/material3/ScaffoldKt;
+Landroidx/navigation/compose/NavHostKt;
+Lcoil3/compose/AsyncImageKt;
